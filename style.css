@@ -59,10 +59,11 @@ nav div {
   transition: 350ms ease-in-out;
   font-weight: bolder;
   display:block;
+
   
 }
 
-nav div:hover,
+nav div:hover, 
 nav div.selected {
   background-color: white;
   color: black;
