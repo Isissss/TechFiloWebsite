@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+ 
 }
 
 html {
@@ -36,7 +37,7 @@ nav {
   background-color: #056571;
   color: #ff6a5c;
   justify-content: space-evenly;
-position: sticky;
+ 
 }
 
 nav a {
