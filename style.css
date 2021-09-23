@@ -17,13 +17,6 @@ body {
 }
 
 
-/* nav a {
-  display: block;
-  text-decoration: none;
-  padding:0.5rem;
-    color: #black;
-} */
-
 a:hover {
   color:black;
   font-weight:bold;
@@ -59,7 +52,7 @@ nav div {
   transition: 350ms ease-in-out;
   font-weight: bolder;
   display:block;
-
+  color:white;
   
 }
 
@@ -68,8 +61,9 @@ nav div.selected {
   background-color: white;
   color: black;
   display:block;
-  box-size:100px;
+
 }
+ 
 
 .imagegallery {
   margin:0;
