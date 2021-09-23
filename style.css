@@ -13,6 +13,7 @@ body {
   font-size: 18px;
   margin: 0;
   padding: 0;
+  font-family: 'Poppins';
 }
 
 
@@ -107,7 +108,7 @@ section {
 
 footer {
   background-color: #056571;
-  height: 10vh;
+  height: 8vh;
   color: #ff6a5c;
   display: flex;
   flex-direction: row;
@@ -115,12 +116,12 @@ footer {
   justify-content: space-between;
   font-weight: bolder;
   font-size: 1.3em;
-  
+  align-items: center;
 }
 
 footer div {
   flex:1;
-  padding au
+height: fit-content;
 }
 
 footer i {
