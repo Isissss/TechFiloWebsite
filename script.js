@@ -7,14 +7,9 @@ const header = document.querySelector("header");
 const startPosition = navbar.offsetTop;
 const observer = new IntersectionObserver(entries => adjustVisibility(entries));
 
-function init() {
-  // sticky navbar
-  observer.observe(header);
 
-  // to fade in images after scrolling
-  for (let img of sectionImages) {
-    observer.observe(img);
-  }
+
+
 
   // to highlight the button for the current article
   for (let title of sectionTitles) {
