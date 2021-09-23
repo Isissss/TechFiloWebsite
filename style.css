@@ -15,10 +15,9 @@ body {
   padding: 0;
 }
 
-a:hover {
-  color: #ff6a5c;
-  font-weight: bold;
-}
+
+
+
 
 h1,
 h2 {
@@ -55,8 +54,14 @@ nav div {
 nav div:hover,
 nav div.selected {
   background-color: white;
-  color: #ff6a5c;
+
   display: block;
+}
+
+nav div:hover a {
+  color: #ff6a5c;
+  font-weight: bold;
+ 
 }
 
 .imagegallery {
@@ -105,16 +110,22 @@ footer {
   height: 10vh;
   color: #ff6a5c;
   display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-weight: bolder;
   font-size: 1.3em;
+  
+}
+
+footer p {
+    flex:1;
 }
 
 footer i {
   color:#ff6a5c;
+    flex:1;
+
 }
+
 figcaption {
   font-size: 0.7em;
   font-style: italic;
