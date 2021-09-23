@@ -9,21 +9,26 @@ html {
 }
 
 body {
-    background-color: rgb(54, 69, 34);
+    background-color: #efefef;
     font-size: 18px;
     margin: 0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-a {
-  color:black;
-  text-decoration:none;
+
+nav a {
+  display: block;
+  text-decoration: none;
+  padding:0.5rem;
+    color: #black;
 }
 
 a:hover {
   color:red;
   font-weight:bold;
+  background-color:blue;
+
 }
 
 h1, h2 {
@@ -32,10 +37,11 @@ h1, h2 {
   font-weight:normal;
 }
 
-nav {
-  background-color: rgb(239, 201, 159);
-  display:flex;
-  justify-content:space-evenly;
+nav { 
+  background-color: #171A21;
+  display: flex;
+  color: #f5fbef;
+  justify-content: space-evenly;
 }
 
 nav div {
@@ -77,7 +83,7 @@ header {
 }
 
 section {
-    background-color: rgb(239, 201, 159);
+    background-color: #fefcfb;
     padding: 20px;
     margin: 20px auto;
     color: rgb(22, 22, 66);
