@@ -110,19 +110,22 @@ footer {
   height: 10vh;
   color: #ff6a5c;
   display: flex;
+  flex-direction: row;
+  text-align: center;
   justify-content: space-between;
   font-weight: bolder;
   font-size: 1.3em;
   
 }
 
-footer p {
-    flex:1;
+footer div {
+  flex:1;
+  padding au
 }
 
 footer i {
+  flex:1;
   color:#ff6a5c;
-    flex:1;
 
 }
 
