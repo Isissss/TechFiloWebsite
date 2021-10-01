@@ -78,6 +78,10 @@ nav div:hover a {
  
 }
 
+nav div:hover a, nav div.selected a {
+  color: #ff6a5c;
+}
+
 .imagegallery {
   margin: 0;
   padding: 0;
