@@ -11,7 +11,7 @@ html {
 }
 
 body {
-/*   background-color: #efefef; */
+  background-color: #efefef;
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -21,7 +21,6 @@ body {
 sup a{
   color:#ff6a5c;
   font-weight:bolder;
-  text-decoration:none;
   text-decoration:underline;
 }
 .wrapper {
@@ -136,23 +135,16 @@ footer {
   color: #ff6a5c;
   display: flex;
   text-align: center;
-  justify-content: space-between;
   font-weight: bolder;
-  font-size: 1.3em;
+  font-size: 1.5rem;
   align-items: center;
 }
 
-footer div {
-  flex:1;
-height: fit-content;
- 
-}
-
-footer i {
+footer div, footer i {
   flex:1;
   color:#ff6a5c;
-
-}
+ 
+ 
 
 figcaption {
   font-size: 0.7em;
