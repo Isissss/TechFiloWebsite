@@ -87,8 +87,12 @@ nav div:hover a, nav div.selected a {
   margin: 0;
   padding: 0;
   width: 100%;
+  display:flex;
+  object-fit:cover;
+ 
 }
 
+ 
 .imagegallery figure {
   display: block;
   margin: 0;
@@ -146,7 +150,7 @@ footer div, footer i {
 }
 
 figcaption {
-  font-size: 0.7em;
+  font-size: 1rem;
   font-style: italic;
   opacity: 0.4;
 }
