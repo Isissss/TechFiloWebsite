@@ -87,14 +87,13 @@ nav div:hover a, nav div.selected a {
   margin: 0;
   padding: 0;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 
 .imagegallery figure {
   display: block;
   margin: 0;
-  width: 30%;
+  object-fit:cover;
+   
 }
 
 .imagegallery img {
@@ -144,7 +143,7 @@ footer div, footer i {
   flex:1;
   color:#ff6a5c;
  
- 
+}
 
 figcaption {
   font-size: 0.7em;
