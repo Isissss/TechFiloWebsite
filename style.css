@@ -51,7 +51,7 @@ nav {
   background-color: #056571;
   color: #ff6a5c;
   justify-content: space-evenly;
- 
+   border-bottom: 2.5px solid #ff6a5c;
 }
 
 nav a {
