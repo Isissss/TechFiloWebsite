@@ -124,8 +124,8 @@ header {
 
 section {
   background-color: #fefcfb;
-display:flex;
-  justify-content:
+  padding: 20px;
+  margin: 20px auto;
   color: rgb(22, 22, 66);
   font-size: 1.1em;
   max-width: 60vw;
