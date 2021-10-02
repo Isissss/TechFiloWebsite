@@ -59,7 +59,7 @@ nav a {
   text-decoration: none;
   padding: 0.5rem;
   color: white;
-  font-size:1.2rem;
+  font-size:1.5rem;
 }
 
 nav div {
@@ -127,7 +127,7 @@ section {
   padding: 20px;
   margin: 20px auto;
   color: rgb(22, 22, 66);
-  font-size: 1.1em;
+  font-size: 1.3em;
   max-width: 60vw;
   border-left: 1.5px solid #ff6a5c;
 /*    border-right: 2px solid #ff6a5c; */
