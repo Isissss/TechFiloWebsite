@@ -18,7 +18,12 @@ body {
   font-family: 'Roboto';
 }
 
-
+sup a{
+  color:#ff6a5c;
+  font-weight:bolder;
+  text-decoration:none;
+  text-decoration:underline;
+}
 .wrapper {
     position: sticky;
     left: 0;
