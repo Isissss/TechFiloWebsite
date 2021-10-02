@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: #efefef;
+/*   background-color: #efefef; */
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -75,18 +75,13 @@ nav div {
 nav div:hover,
 nav div.selected {
   background-color: white;
-
   display: block;
-}
 
-nav div:hover a {
-  color: #ff6a5c;
-  font-weight: bold;
- 
 }
 
 nav div:hover a, nav div.selected a {
   color: #ff6a5c;
+    font-weight: bold;
 }
 
 .imagegallery {
@@ -113,7 +108,7 @@ header {
   font-size: 2em;
   color: white;
   text-align: center;
-  height: 35vh;
+  height: 25vh;
   background-image: url(https://cdn.mos.cms.futurecdn.net/usHwZaRSu5KnAjSPZDWDta-1200-80.jpg);
   background-size: cover;
   background-position: center;
@@ -130,6 +125,9 @@ section {
   color: rgb(22, 22, 66);
   font-size: 1.1em;
   max-width: 65vw;
+  border-left: 1.5px solid #ff6a5c;
+/*    border-right: 2px solid #ff6a5c; */
+ 
 }
 
 footer {
