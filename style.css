@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Rubik+Beastly&display=swap");
- @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Noto+Serif:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Noto+Serif:wght@700&display=swap");
 
 * {
   box-sizing: border-box;
- 
 }
 
 html {
@@ -15,44 +14,40 @@ body {
   font-size: 18px;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto';
 }
 
-sup a{
-  color:#ff6a5c;
-  font-weight:bolder;
-  text-decoration:underline;
-  padding:0;
-  margin:0;
+sup a {
+  color: #ff6a5c;
+  font-weight: bolder;
+  text-decoration: underline;
+  padding: 0;
+  margin: 0;
 }
 .wrapper {
-    position: sticky;
-    left: 0;
-    top: 0;
+  position: sticky;
+  left: 0;
+  top: 0;
 }
-
 
 h1 {
-  margin:0;
-    font-size: 1.5em;
-    font-weight: bolder;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bolder;
   color: white;
-  
 }
 h2 {
- 
   font-weight: bolder;
   color: #056571;
-      margin: 0;
+  margin: 0;
 }
 
 h3 {
- font-size:1em;
+  font-size: 1em;
   font-weight: bolder;
   color: #056571;
-      margin: 0;
-  padding:0;
-  margin-top:3px;
+  margin: 0;
+  padding: 0;
+  margin-top: 3px;
 }
 
 nav {
@@ -60,7 +55,7 @@ nav {
   background-color: #056571;
   color: #ff6a5c;
   justify-content: space-evenly;
-   border-bottom: 2.5px solid #ff6a5c;
+  border-bottom: 2.5px solid #ff6a5c;
 }
 
 nav a {
@@ -68,7 +63,7 @@ nav a {
   text-decoration: none;
   padding: 0.5rem;
   color: white;
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
 nav div {
@@ -86,29 +81,26 @@ nav div:hover,
 nav div.selected {
   background-color: white;
   display: block;
-
 }
 
-nav div:hover a, nav div.selected a {
+nav div:hover a,
+nav div.selected a {
   color: #ff6a5c;
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .imagegallery {
   margin: 10px;
   padding: 10px;
   width: 100%;
-  display:flex;
-  object-fit:cover;
- 
+  display: flex;
+  object-fit: cover;
 }
 
- 
 .imagegallery figure {
   display: block;
   margin: 10px;
-  object-fit:cover;
-   
+  object-fit: cover;
 }
 
 .imagegallery img {
@@ -126,22 +118,21 @@ header {
   background-size: cover;
   background-position: center;
   font-weight: bolder;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 section {
   background-color: #fefcfb;
- font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 20px;
   margin: 20px auto;
   color: rgb(22, 22, 66);
   font-size: 22px;
   max-width: 60vw;
   border-left: 1.5px solid #ff6a5c;
-/*    border-right: 2px solid #ff6a5c; */
- 
+  /*    border-right: 2px solid #ff6a5c; */
 }
 
 footer {
@@ -155,10 +146,10 @@ footer {
   align-items: center;
 }
 
-footer div, footer i {
-  flex:1;
-  color:#ff6a5c;
- 
+footer div,
+footer i {
+  flex: 1;
+  color: #ff6a5c;
 }
 
 figcaption {
