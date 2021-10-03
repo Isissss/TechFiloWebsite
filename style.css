@@ -38,7 +38,8 @@ h1 {
 h2 {
   font-weight: bolder;
   color: #056571;
-  margin: 0;
+  margin-bottom: 25px;
+   margin-top: 0px;
 }
 
 h3 {
@@ -132,8 +133,13 @@ section {
   font-size: 22px;
   max-width: 60vw;
   border-left: 1.5px solid #ff6a5c;
-  /*    border-right: 2px solid #ff6a5c; */
+ 
 }
+p {
+    margin-top: 0;
+ 
+}
+ 
 
 footer {
   background-color: #056571;
