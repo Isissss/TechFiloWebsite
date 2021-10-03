@@ -94,7 +94,7 @@ nav div:hover a, nav div.selected a {
 
 .imagegallery {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   width: 100%;
   display:flex;
   object-fit:cover;
