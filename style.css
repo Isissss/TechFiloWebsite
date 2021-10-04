@@ -11,7 +11,7 @@ html {
 
 body {
   background-color: #efefef;
-  font-size: 18px;
+  font-size: 1em;
   margin: 0;
   padding: 0;
 }
@@ -39,7 +39,7 @@ h2 {
   font-weight: bolder;
   color: #056571;
   margin-bottom: 25px;
-   margin-top: 0px;
+  margin-top: 0px;
 }
 
 h3 {
@@ -130,16 +130,13 @@ section {
   padding: 20px;
   margin: 20px auto;
   color: rgb(22, 22, 66);
-  font-size: 22px;
+  font-size: 1em;
   max-width: 60vw;
   border-left: 1.5px solid #ff6a5c;
- 
 }
 p {
-    margin-top: 0;
- 
+  margin-top: 0;
 }
- 
 
 footer {
   background-color: #056571;
@@ -159,7 +156,7 @@ footer i {
 }
 
 figcaption {
-  font-size: 1rem;
+  font-size: 0.7em;
   font-style: italic;
   opacity: 0.4;
 }
