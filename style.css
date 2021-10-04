@@ -162,30 +162,3 @@ figcaption {
   opacity: 0.4;
 }
 
-@media screen and (max-width: 550px) {
-
-  
-  .wrapper {
-    position: relative;
-  }
-
-    .intro img {
-        width: 100%;
-        float: none;
-    }
-    section h2 {
-        font-size: 2em;
-    }
-    }
-    nav {
-        display: block;
-        position: initial;
-    }
-    header {
-        font-size: 1.4em;
-        height: 50vh;
-    }
-    .socials {
-        display: block;
-    }
-}
