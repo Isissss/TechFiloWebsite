@@ -169,5 +169,14 @@ figcaption {
   font-style: italic;
   opacity: 0.4;
 }
+li {
+ color:#ff6a5c;
+  
+}
 
+li p {
+  margin:0;
+  padding:0;
+  color:black;
+}
 @media 
