@@ -33,7 +33,7 @@ sup a{
 h1 {
   margin: 0;
    text-shadow: 4px 4px rgb(12, 116, 137);
-  font-size: clamp{10px, 3em, 25px};
+  font-size: clamp(30px, 5.5vw, 60px);
   font-weight: bolder;
   color: white;
   font-family:"poppins", sans-serif;
@@ -43,6 +43,7 @@ h2 {
   color: #056571;
   margin-bottom: 25px;
   margin-top: 0px;
+   text-shadow: 1px 1px rgb(182, 169, 143);
 }
 
 h3 {
