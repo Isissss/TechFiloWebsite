@@ -3,6 +3,7 @@
 
 * {
   box-sizing: border-box;
+
 }
 
 html {
@@ -34,6 +35,7 @@ h1 {
   font-size: 1.5em;
   font-weight: bolder;
   color: white;
+  font-family:"poppins", sans-serif;
 }
 h2 {
   font-weight: bolder;
@@ -52,11 +54,13 @@ h3 {
 }
 
 nav {
+  font-family:"poppins", sans-serif;
   display: flex;
   background-color: #056571;
   color: #ff6a5c;
   justify-content: space-evenly;
   border-bottom: 2.5px solid #ff6a5c;
+
   
 }
 
@@ -161,4 +165,5 @@ figcaption {
   font-style: italic;
   opacity: 0.4;
 }
+
 
