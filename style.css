@@ -60,9 +60,9 @@ nav {
   display: flex;
   background-color: #056571;
   color: #ff6a5c;
-  justify-content: space-evenly;
+  justify-content: space-evenly, center;
   border-bottom: 2.5px solid #ff6a5c;
-
+height:7vh;
   
 }
 
@@ -72,6 +72,8 @@ nav a {
   padding: 0.5rem;
   color: white;
   font-size: 1.2rem;
+  justify-content:center;
+  
 }
 
 nav div {
@@ -133,7 +135,7 @@ header {
   font-size: 2em;
   color: white;
   text-align: center;
-  height: 28vh;
+  height: 35vh;
   background-image: url(https://cdn.mos.cms.futurecdn.net/usHwZaRSu5KnAjSPZDWDta-1200-80.jpg);
   background-size: cover;
   background-position: center;
