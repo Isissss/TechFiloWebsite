@@ -60,9 +60,9 @@ nav {
   display: flex;
   background-color: #056571;
   color: #ff6a5c;
-  justify-content: space-evenly, center;
+  justify-content: space-evenly;
   border-bottom: 2.5px solid #ff6a5c;
-height:7vh;
+
   
 }
 
@@ -72,8 +72,6 @@ nav a {
   padding: 0.5rem;
   color: white;
   font-size: 1.2rem;
-  justify-content:center;
-  
 }
 
 nav div {
@@ -178,7 +176,7 @@ footer i {
 
 i:hover {
 
-    transform: scale(1.5);
+    transform: scale(1.4);
 }
 
 
