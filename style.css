@@ -174,12 +174,18 @@ footer i {
   color: #ff6a5c;
 }
 
+i:hover {
+
+    transform: scale(1.5);
+}
+
+
 figcaption {
   font-size: 0.9em;
   font-style: italic;
   opacity: 0.4;
 }
-li {
+li, li a{
  color:#ff6a5c;
   
 }
