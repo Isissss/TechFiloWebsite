@@ -146,10 +146,12 @@ section {
   font-size: 1.25em;
   max-width: 65vw;
   border-left: 1.5px solid #ff6a5c;
-  border-radius: 15px;
+  border-radius: 12.5px;
+  
 }
 p {
   margin-top: 0;
+
 }
 
 footer {
@@ -159,7 +161,7 @@ footer {
   display: flex;
   text-align: center;
   font-weight: bolder;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   align-items: center;
 }
 
@@ -167,10 +169,12 @@ footer div,
 footer i {
   flex: 1;
   color: #ff6a5c;
+ 
 }
 
 i:hover {
   transform: scale(1.4);
+  transition:0.4s; 
 }
 
 figcaption {
