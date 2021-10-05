@@ -3,7 +3,6 @@
 
 * {
   box-sizing: border-box;
-
 }
 
 html {
@@ -17,7 +16,7 @@ body {
   padding: 0;
 }
 
-sup a{
+sup a {
   color: #ff6a5c;
   font-weight: bolder;
   text-decoration: underline;
@@ -32,18 +31,17 @@ sup a{
 
 h1 {
   margin: 0;
-   text-shadow: 4px 4px rgb(12, 116, 137);
+  text-shadow: 4px 4px rgb(12, 116, 137);
   font-size: clamp(30px, 5.5vw, 60px);
   font-weight: bolder;
   color: white;
-  font-family:"poppins", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 h2 {
   font-weight: bolder;
   color: #056571;
   margin-bottom: 25px;
   margin-top: 0px;
-    
 }
 
 h3 {
@@ -56,14 +54,12 @@ h3 {
 }
 
 nav {
-  font-family:"poppins", sans-serif;
+  font-family: "poppins", sans-serif;
   display: flex;
   background-color: #056571;
   color: #ff6a5c;
   justify-content: space-evenly;
   border-bottom: 2.5px solid #ff6a5c;
-
-  
 }
 
 nav a {
@@ -97,30 +93,28 @@ nav div.selected a {
   font-weight: bold;
 }
 
-.singleimage img{
-  width:100%;
-  max-width:550px;
-  object-fit:contain;
-  flex-grow:1;
- 
-  
+.singleimage img {
+  width: 100%;
+  max-width: 550px;
+  object-fit: contain;
+  flex-grow: 1;
 }
 
 .imagegallery {
-    margin: 10px 0;
-    padding: 10px 0;
-    width: 100%;
-    display: flex;
-    max-width: 70vw;
-    object-fit: contain;
-    flex-wrap: wrap;
-    gap: 20px;
+  margin: 10px 0;
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  max-width: 70vw;
+  object-fit: contain;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .imagegallery figure {
-    display: block;
-    margin: 0;
-    object-fit: contain;
-    flex: 1;
+  display: block;
+  margin: 0;
+  object-fit: contain;
+  flex: 1;
 }
 
 .imagegallery img {
@@ -152,6 +146,7 @@ section {
   font-size: 1.25em;
   max-width: 65vw;
   border-left: 1.5px solid #ff6a5c;
+  border-radius: 15px;
 }
 p {
   margin-top: 0;
@@ -175,45 +170,44 @@ footer i {
 }
 
 i:hover {
-
-    transform: scale(1.4);
+  transform: scale(1.4);
 }
-
 
 figcaption {
   font-size: 0.9em;
   font-style: italic;
   opacity: 0.4;
 }
-li, li a{
- color:#ff6a5c;
-  
+li,
+li a {
+  color: #ff6a5c;
 }
 
 li p {
-  margin:0;
-  padding:0;
-  color:black;
+  margin: 0;
+  padding: 5px;
+  color: black;
 }
 
 @media only screen and (max-width: 600px) {
-  nav { 
-  flex-direction:column; }
-  
+  nav {
+    flex-direction: column;
+  }
+
   .stickybar {
-    position:initial;
+    position: initial;
   }
-  
-  section { 
-  max-width:100%}
-  
-  nav div { 
-  border-bottom:1px solid white;}
-  
+
+  section {
+    max-width: 100%;
+  }
+
+  nav div {
+    border-bottom: 1px solid white;
+  }
+
   .imagegallery {
-    flex-direction:column;
-    width:contain;
-
+    flex-direction: column;
+    width: contain;
   }
-
 }
