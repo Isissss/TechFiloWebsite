@@ -98,10 +98,10 @@ nav div.selected a {
 }
 
 .singleimage img{
-  max-width:450px;
-  min-width:300px;
+  width:100%;
+  max-width:550px;
   object-fit:contain;
-  
+  flex-grow:1;
  
   
 }
@@ -149,7 +149,7 @@ section {
   padding: 20px;
   margin: 20px auto;
   color: rgb(22, 22, 66);
-  font-size: 1.1  em;
+  font-size: 1.2em;
   max-width: 65vw;
   border-left: 1.5px solid #ff6a5c;
 }
