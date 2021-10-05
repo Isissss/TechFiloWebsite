@@ -97,10 +97,10 @@ nav div.selected a {
   font-weight: bold;
 }
 
-.singleimage {
+.singleimage img{
   width:100%;
   object-fit:contain;
-  display:block;
+  
 }
 
 .imagegallery {
