@@ -1,3 +1,3 @@
-# Les 2 Finished
+# TechFilo Finished 
 
-Eindresultaat van les 2.
+Dit is mijn website! De link is https://isissss.github.io/TechFiloWebsite/
