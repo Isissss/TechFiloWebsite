@@ -3,6 +3,7 @@
 
 * {
   box-sizing: border-box;
+
 }
 
 html {
@@ -16,14 +17,14 @@ body {
   padding: 0;
 }
 
-sup a {
+sup a{
   color: #ff6a5c;
   font-weight: bolder;
   text-decoration: underline;
   padding: 0;
   margin: 0;
 }
-.wrapper {
+.stickybar {
   position: sticky;
   left: 0;
   top: 0;
@@ -31,17 +32,18 @@ sup a {
 
 h1 {
   margin: 0;
-  text-shadow: 4px 4px rgb(12, 116, 137);
+   text-shadow: 4px 4px rgb(12, 116, 137);
   font-size: clamp(30px, 5.5vw, 60px);
   font-weight: bolder;
   color: white;
-  font-family: "poppins", sans-serif;
+  font-family:"poppins", sans-serif;
 }
 h2 {
   font-weight: bolder;
   color: #056571;
   margin-bottom: 25px;
   margin-top: 0px;
+    
 }
 
 h3 {
@@ -54,12 +56,14 @@ h3 {
 }
 
 nav {
-  font-family: "poppins", sans-serif;
+  font-family:"poppins", sans-serif;
   display: flex;
   background-color: #056571;
   color: #ff6a5c;
   justify-content: space-evenly;
   border-bottom: 2.5px solid #ff6a5c;
+
+  
 }
 
 nav a {
@@ -92,24 +96,33 @@ nav div.selected a {
   color: #ff6a5c;
   font-weight: bold;
 }
-.singleimage img {
+
+.singleimage {
   width:100%;
   object-fit:contain;
+  display:block;
 }
+
 .imagegallery {
+  margin: 10px;
+  padding: 10px;
   width: 100%;
   display: flex;
-  justify-content:space-between;
-  border:2px solid red;
+    max-width: 70vw;
+  object-fit: contain;
 }
 
 .imagegallery figure {
   display: block;
+  margin: 10px;
+  object-fit: cover;
+
 }
 
 .imagegallery img {
+  width: 100%;
   height: 200px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 header {
@@ -132,7 +145,7 @@ section {
   padding: 20px;
   margin: 20px auto;
   color: rgb(22, 22, 66);
-  font-size: 1.1 em;
+  font-size: 1.1  em;
   max-width: 65vw;
   border-left: 1.5px solid #ff6a5c;
 }
@@ -163,39 +176,34 @@ figcaption {
   opacity: 0.4;
 }
 li {
-  color: #ff6a5c;
+ color:#ff6a5c;
+  
 }
 
 li p {
-  margin: 0;
-  padding: 0;
-  color: black;
+  margin:0;
+  padding:0;
+  color:black;
 }
 
 @media only screen and (max-width: 600px) {
-  nav {
-    flex-direction: column;
+  nav { 
+  flex-direction:column; }
+  
+  .stickybar {
+    position:initial;
   }
-
-  .wrapper {
-    position: initial;
-  }
-
-  section {
-    max-width: 100%;
-  }
-
-  nav div {
-    border-bottom: 1px solid white;
-  }
-
+  
+  section { 
+  max-width:100%}
+  
+  nav div { 
+  border-bottom:1px solid white;}
+  
   .imagegallery {
-    flex-direction: column;
-    width: contain;
-  }
-  .imagegalery figure {
-    object-fit: contain;
+    flex-direction:column;
+    width:contain;
 
-    width: contain;
   }
+
 }
