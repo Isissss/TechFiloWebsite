@@ -62,7 +62,7 @@ nav {
   color: #ff6a5c;
   justify-content: space-evenly;
   border-bottom: 2.5px solid #ff6a5c;
-widt
+
   
 }
 
@@ -179,4 +179,12 @@ li p {
   padding:0;
   color:black;
 }
-@media 
+
+@media only screen and (max-width: 600px) {
+  nav { 
+  flex-direction:column; }
+  
+  .wrapper {
+    position:initial;
+  }
+}
