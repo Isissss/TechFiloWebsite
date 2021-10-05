@@ -187,4 +187,14 @@ li p {
   .wrapper {
     position:initial;
   }
+  
+  section { 
+  max-width:100%}
+  
+  nav div { 
+  border-bottom:1px solid white;}
+  
+  .imagegallery {
+    flex-direction:column;
+  }
 }
